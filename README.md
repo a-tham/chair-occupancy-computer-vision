@@ -118,6 +118,10 @@ Usage:
 
 3. **Validation**: Comment out train_model and uncomment validation lines with desired checkpoint
 
+4. **Install Required Packages:**
+   ```bash
+   pip install -r train_requirements.txt
+
 Test Results Arguments:
 - `split`: 'val' or 'test'
 - `plots`: True or False
