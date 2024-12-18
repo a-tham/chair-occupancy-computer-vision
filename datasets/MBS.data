@@ -1,0 +1,4 @@
+classes = 2
+train = data/MBS.txt
+names = data/MBS.names
+backup = backup

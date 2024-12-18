@@ -1,0 +1,47 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.9.13",
+    "heartbeatAt": "2024-07-20T09:39:54.623243",
+    "startedAt": "2024-07-20T09:39:53.954432",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\users\\iag\\pycharmprojects\\mbs\\main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "host": "DS",
+    "username": "IAG",
+    "executable": "C:\\Users\\IAG\\PycharmProjects\\MBS\\.venv\\Scripts\\python.exe",
+    "cpu_count": 16,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 3200.0,
+        "min": 0.0,
+        "max": 3200.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3200.0,
+            "min": 0.0,
+            "max": 3200.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 930.7470664978027,
+            "used": 884.7433929443359
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3090 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3090 Ti",
+            "memory_total": 25757220864
+        }
+    ],
+    "memory": {
+        "total": 31.84497833251953
+    }
+}

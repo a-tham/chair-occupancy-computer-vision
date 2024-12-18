@@ -1,0 +1,1085 @@
+2024-07-20 17:39:53,958 INFO    StreamThr :20548 [internal.py:wandb_internal():85] W&B internal server running at pid: 20548, started at: 2024-07-20 17:39:53.958433
+2024-07-20 17:39:53,959 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status
+2024-07-20 17:39:53,960 INFO    WriterThread:20548 [datastore.py:open_for_write():87] open: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\run-u9xjpath.wandb
+2024-07-20 17:39:53,961 DEBUG   SenderThread:20548 [sender.py:send():379] send: header
+2024-07-20 17:39:53,961 DEBUG   SenderThread:20548 [sender.py:send():379] send: run
+2024-07-20 17:39:54,539 INFO    SenderThread:20548 [dir_watcher.py:__init__():211] watching files in: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files
+2024-07-20 17:39:54,539 INFO    SenderThread:20548 [sender.py:_start_run_threads():1188] run started: u9xjpath with start time 1721468393.958432
+2024-07-20 17:39:54,544 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: check_version
+2024-07-20 17:39:54,545 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: check_version
+2024-07-20 17:39:54,580 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: run_start
+2024-07-20 17:39:54,601 DEBUG   HandlerThread:20548 [system_info.py:__init__():26] System info init
+2024-07-20 17:39:54,601 DEBUG   HandlerThread:20548 [system_info.py:__init__():41] System info init done
+2024-07-20 17:39:54,601 INFO    HandlerThread:20548 [system_monitor.py:start():194] Starting system monitor
+2024-07-20 17:39:54,601 INFO    SystemMonitor:20548 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-20 17:39:54,601 INFO    HandlerThread:20548 [system_monitor.py:probe():214] Collecting system info
+2024-07-20 17:39:54,605 INFO    SystemMonitor:20548 [interfaces.py:start():188] Started cpu monitoring
+2024-07-20 17:39:54,605 INFO    SystemMonitor:20548 [interfaces.py:start():188] Started disk monitoring
+2024-07-20 17:39:54,606 INFO    SystemMonitor:20548 [interfaces.py:start():188] Started gpu monitoring
+2024-07-20 17:39:54,611 INFO    SystemMonitor:20548 [interfaces.py:start():188] Started memory monitoring
+2024-07-20 17:39:54,620 INFO    SystemMonitor:20548 [interfaces.py:start():188] Started network monitoring
+2024-07-20 17:39:54,623 DEBUG   HandlerThread:20548 [system_info.py:probe():152] Probing system
+2024-07-20 17:39:54,624 DEBUG   HandlerThread:20548 [gitlib.py:_init_repo():56] git repository is invalid
+2024-07-20 17:39:54,624 DEBUG   HandlerThread:20548 [system_info.py:probe():200] Probing system done
+2024-07-20 17:39:54,624 DEBUG   HandlerThread:20548 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.9.13', 'heartbeatAt': '2024-07-20T09:39:54.623243', 'startedAt': '2024-07-20T09:39:53.954432', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:\\users\\iag\\pycharmprojects\\mbs\\main.py', 'codePathLocal': 'main.py', 'codePath': 'main.py', 'host': 'DS', 'username': 'IAG', 'executable': 'C:\\Users\\IAG\\PycharmProjects\\MBS\\.venv\\Scripts\\python.exe', 'cpu_count': 16, 'cpu_count_logical': 24, 'cpu_freq': {'current': 3200.0, 'min': 0.0, 'max': 3200.0}, 'cpu_freq_per_core': [{'current': 3200.0, 'min': 0.0, 'max': 3200.0}], 'disk': {'/': {'total': 930.7470664978027, 'used': 884.7433929443359}}, 'gpu': 'NVIDIA GeForce RTX 3090 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090 Ti', 'memory_total': 25757220864}], 'memory': {'total': 31.84497833251953}}
+2024-07-20 17:39:54,624 INFO    HandlerThread:20548 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-20 17:39:54,624 INFO    HandlerThread:20548 [system_monitor.py:probe():227] Publishing system info
+2024-07-20 17:39:54,624 INFO    HandlerThread:20548 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-20 17:39:54,626 DEBUG   SenderThread:20548 [sender.py:send():379] send: files
+2024-07-20 17:39:54,626 INFO    SenderThread:20548 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-07-20 17:39:54,679 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-20 17:39:54,679 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: python_packages
+2024-07-20 17:39:54,680 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:39:54,680 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:39:54,681 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:39:54,975 DEBUG   SenderThread:20548 [sender.py:send():379] send: telemetry
+2024-07-20 17:39:55,489 INFO    wandb-upload_0:20548 [upload_job.py:push():130] Uploaded file C:\Users\IAG\AppData\Local\Temp\tmp2a3rb6_wwandb\muoe8mkg-wandb-metadata.json
+2024-07-20 17:39:55,554 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_created():271] file/dir created: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\wandb-metadata.json
+2024-07-20 17:39:55,555 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_created():271] file/dir created: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\requirements.txt
+2024-07-20 17:39:55,555 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_created():271] file/dir created: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:39:55,677 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:39:56,688 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:39:57,121 DEBUG   SenderThread:20548 [sender.py:send():379] send: telemetry
+2024-07-20 17:39:57,575 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:39:57,700 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:39:58,711 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:39:59,255 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:39:59,367 DEBUG   SenderThread:20548 [sender.py:send():379] send: telemetry
+2024-07-20 17:39:59,367 DEBUG   SenderThread:20548 [sender.py:send():379] send: telemetry
+2024-07-20 17:39:59,367 DEBUG   SenderThread:20548 [sender.py:send():379] send: config
+2024-07-20 17:39:59,599 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:39:59,706 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:00,608 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:00,717 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:01,618 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:01,725 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:02,625 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:02,734 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:03,743 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:04,306 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:40:04,650 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:04,739 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:05,747 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:06,665 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:06,758 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:07,768 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:08,684 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:08,778 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:09,693 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:40:09,694 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:40:09,785 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:10,043 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:40:10,704 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:10,796 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:11,805 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:12,722 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:12,815 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:13,823 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:14,737 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:14,830 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:15,056 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:40:15,842 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:16,758 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:16,851 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:17,860 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:18,778 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:18,871 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:19,879 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:20,736 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:40:20,795 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:20,888 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:21,897 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:22,812 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:22,905 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:23,914 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:24,690 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:40:24,690 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:40:24,830 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:24,928 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:25,932 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:26,711 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:40:26,849 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:26,942 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:27,859 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\config.yaml
+2024-07-20 17:40:27,953 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:28,144 DEBUG   SenderThread:20548 [sender.py:send():379] send: telemetry
+2024-07-20 17:40:28,144 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:40:28,144 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:40:28,870 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:28,963 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:29,974 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:30,892 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:30,985 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:31,996 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:32,140 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:40:32,914 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:33,009 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:33,925 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:34,003 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:35,024 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:35,949 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:36,026 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:37,045 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:37,323 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:40:37,971 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:38,032 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:39,043 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:39,696 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:40:39,697 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:40:39,993 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:40,054 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:41,065 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:42,015 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:42,076 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:42,642 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:40:43,087 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:44,036 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:44,098 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:45,109 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:46,060 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:46,121 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:47,132 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:47,836 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:40:48,081 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:48,143 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:49,154 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:50,104 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:50,166 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:51,160 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:52,126 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:52,172 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:52,982 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:40:53,183 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:54,148 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:54,194 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:54,630 DEBUG   SystemMonitor:20548 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-20 17:40:54,630 DEBUG   SenderThread:20548 [sender.py:send():379] send: stats
+2024-07-20 17:40:54,692 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:40:54,692 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:40:55,205 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:56,170 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:56,216 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:56,659 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: log_artifact
+2024-07-20 17:40:56,659 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: log_artifact
+2024-07-20 17:40:57,158 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:40:57,181 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_created():271] file/dir created: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\media\table\Validation-Table_1_cadc10681407fa28745c.table.json
+2024-07-20 17:40:57,181 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_created():271] file/dir created: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\media
+2024-07-20 17:40:57,181 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_created():271] file/dir created: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\media\table
+2024-07-20 17:40:57,227 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:57,789 INFO    wandb-upload_0:20548 [upload_job.py:push():130] Uploaded file C:\Users\IAG\AppData\Local\Temp\tmp2a3rb6_wwandb\v3cxsud2-media/table/Validation-Table_1_cadc10681407fa28745c.table.json
+2024-07-20 17:40:58,190 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:40:58,266 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:59,406 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:40:59,437 INFO    wandb-upload_1:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmpxsbxna0r
+2024-07-20 17:40:59,933 INFO    wandb-upload_2:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmpmiwa3qe0
+2024-07-20 17:41:00,209 INFO    wandb-upload_23:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmpmdyvy774
+2024-07-20 17:41:00,320 INFO    wandb-upload_21:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmp__mj1zv8
+2024-07-20 17:41:00,408 INFO    wandb-upload_6:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmpluw7dzbr
+2024-07-20 17:41:00,420 INFO    wandb-upload_10:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmpon5pcrep
+2024-07-20 17:41:00,559 INFO    wandb-upload_29:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmp_lnr0q9l
+2024-07-20 17:41:00,665 INFO    wandb-upload_8:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmpgq9c48zz
+2024-07-20 17:41:00,701 INFO    wandb-upload_27:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmp1sc9i813
+2024-07-20 17:41:00,724 INFO    wandb-upload_12:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmpgmilz2iz
+2024-07-20 17:41:00,739 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:00,780 INFO    wandb-upload_30:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmpqnvtdayv
+2024-07-20 17:41:01,018 INFO    wandb-upload_20:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmprvdjr97u
+2024-07-20 17:41:01,321 INFO    wandb-upload_16:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmplpj687c5
+2024-07-20 17:41:01,345 INFO    wandb-upload_31:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmpv25_dqo2
+2024-07-20 17:41:01,357 INFO    wandb-upload_19:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmpoex0jij8
+2024-07-20 17:41:01,393 INFO    wandb-upload_4:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmp4e3zysl4
+2024-07-20 17:41:01,409 INFO    wandb-upload_25:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmpnjgerddb
+2024-07-20 17:41:01,448 INFO    wandb-upload_33:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmpnyzmga9r
+2024-07-20 17:41:01,486 INFO    wandb-upload_7:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmpo2tyhdj9
+2024-07-20 17:41:01,502 INFO    wandb-upload_18:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmp497s14ob
+2024-07-20 17:41:01,505 INFO    wandb-upload_26:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmpq8k7239i
+2024-07-20 17:41:01,562 INFO    wandb-upload_3:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmp4iv9gpx5
+2024-07-20 17:41:01,587 INFO    wandb-upload_17:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmpurabugcn
+2024-07-20 17:41:01,605 INFO    wandb-upload_15:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmppf56nx8a
+2024-07-20 17:41:01,637 INFO    wandb-upload_11:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmpj40er81v
+2024-07-20 17:41:01,657 INFO    wandb-upload_28:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmplff19b1d
+2024-07-20 17:41:01,657 INFO    wandb-upload_14:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmp1emprxmr
+2024-07-20 17:41:01,661 INFO    wandb-upload_5:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmp16a78tam
+2024-07-20 17:41:01,665 INFO    wandb-upload_32:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmptkefrlk5
+2024-07-20 17:41:01,688 INFO    wandb-upload_13:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmphdr7rla8
+2024-07-20 17:41:01,713 INFO    wandb-upload_24:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmp95lo8zyu
+2024-07-20 17:41:01,752 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:01,771 INFO    wandb-upload_0:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmpr96jor40
+2024-07-20 17:41:01,858 INFO    wandb-upload_22:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmpj5nmxe07
+2024-07-20 17:41:01,930 INFO    wandb-upload_9:20548 [upload_job.py:push():88] Uploaded file C:\Users\IAG\AppData\Local\wandb\wandb\artifacts\staging\tmpz7279ik3
+2024-07-20 17:41:02,762 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:03,098 INFO    SenderThread:20548 [sender.py:send_request_log_artifact():1518] logged artifact run-u9xjpath-ValidationTable - {'id': 'QXJ0aWZhY3Q6MTAwNjM2MTM4Ng==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5NTA2NDY0MA==', 'latestArtifact': None}}
+2024-07-20 17:41:03,101 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:41:03,365 DEBUG   SenderThread:20548 [sender.py:send():379] send: files
+2024-07-20 17:41:03,365 INFO    SenderThread:20548 [sender.py:_save_file():1454] saving file media\table\Validation-Table_1_cadc10681407fa28745c.table.json with policy now
+2024-07-20 17:41:03,773 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:03,975 INFO    wandb-upload_1:20548 [upload_job.py:push():130] Uploaded file C:\Users\IAG\AppData\Local\Temp\tmp2a3rb6_wwandb\0r39lq5c-media/table/Validation-Table_1_cadc10681407fa28745c.table.json
+2024-07-20 17:41:04,255 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\config.yaml
+2024-07-20 17:41:04,784 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:05,795 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:06,806 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:07,817 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:08,300 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:08,828 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:08,918 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:41:09,698 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:41:09,698 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:41:09,838 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:10,320 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:10,849 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:11,860 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:12,343 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:12,871 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:13,882 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:14,069 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:41:14,365 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:14,893 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:15,904 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:16,387 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:16,915 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:17,925 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:18,407 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:18,938 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:19,256 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:41:19,258 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:41:19,267 DEBUG   SenderThread:20548 [sender.py:send():379] send: files
+2024-07-20 17:41:19,267 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:41:19,267 INFO    SenderThread:20548 [sender.py:_save_file():1454] saving file media\images\labels_1_1a3e86b872273dae2981.jpg with policy now
+2024-07-20 17:41:19,283 DEBUG   SenderThread:20548 [sender.py:send():379] send: files
+2024-07-20 17:41:19,284 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:41:19,284 INFO    SenderThread:20548 [sender.py:_save_file():1454] saving file media\images\train_batch0_1_4fa6449ab9ff8a2c8551.jpg with policy now
+2024-07-20 17:41:19,300 DEBUG   SenderThread:20548 [sender.py:send():379] send: files
+2024-07-20 17:41:19,300 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:41:19,300 INFO    SenderThread:20548 [sender.py:_save_file():1454] saving file media\images\train_batch1_1_38f5183283a61764de87.jpg with policy now
+2024-07-20 17:41:19,317 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:41:19,317 DEBUG   SenderThread:20548 [sender.py:send():379] send: files
+2024-07-20 17:41:19,317 INFO    SenderThread:20548 [sender.py:_save_file():1454] saving file media\images\train_batch2_1_3ee11d24f765046bdc10.jpg with policy now
+2024-07-20 17:41:19,401 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:41:19,418 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_created():271] file/dir created: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\media\images\labels_1_1a3e86b872273dae2981.jpg
+2024-07-20 17:41:19,419 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_created():271] file/dir created: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\media\images\train_batch0_1_4fa6449ab9ff8a2c8551.jpg
+2024-07-20 17:41:19,419 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_created():271] file/dir created: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\media\images\train_batch1_1_38f5183283a61764de87.jpg
+2024-07-20 17:41:19,419 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_created():271] file/dir created: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\media\images\train_batch2_1_3ee11d24f765046bdc10.jpg
+2024-07-20 17:41:19,419 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\media
+2024-07-20 17:41:19,419 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_created():271] file/dir created: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\media\images
+2024-07-20 17:41:19,945 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:20,426 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:20,957 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:21,086 INFO    wandb-upload_29:20548 [upload_job.py:push():130] Uploaded file C:\Users\IAG\AppData\Local\Temp\tmp2a3rb6_wwandb\j2z4hnyn-media/images/train_batch1_1_38f5183283a61764de87.jpg
+2024-07-20 17:41:21,121 INFO    wandb-upload_27:20548 [upload_job.py:push():130] Uploaded file C:\Users\IAG\AppData\Local\Temp\tmp2a3rb6_wwandb\asfonfkm-media/images/train_batch2_1_3ee11d24f765046bdc10.jpg
+2024-07-20 17:41:21,321 INFO    wandb-upload_23:20548 [upload_job.py:push():130] Uploaded file C:\Users\IAG\AppData\Local\Temp\tmp2a3rb6_wwandb\n4n1rt7l-media/images/labels_1_1a3e86b872273dae2981.jpg
+2024-07-20 17:41:21,435 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:21,816 INFO    wandb-upload_6:20548 [upload_job.py:push():130] Uploaded file C:\Users\IAG\AppData\Local\Temp\tmp2a3rb6_wwandb\7d1meh92-media/images/train_batch0_1_4fa6449ab9ff8a2c8551.jpg
+2024-07-20 17:41:21,960 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:22,443 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:22,974 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:23,030 INFO    wandb-upload_30:20548 [upload_job.py:push():130] Uploaded file C:\Users\IAG\AppData\Local\Temp\tmp2a3rb6_wwandb\vqlqu6wm-media/images/train_batch1_1_38f5183283a61764de87.jpg
+2024-07-20 17:41:23,462 INFO    wandb-upload_16:20548 [upload_job.py:push():130] Uploaded file C:\Users\IAG\AppData\Local\Temp\tmp2a3rb6_wwandb\ymuu0aoc-media/images/train_batch2_1_3ee11d24f765046bdc10.jpg
+2024-07-20 17:41:23,980 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:24,159 INFO    wandb-upload_19:20548 [upload_job.py:push():130] Uploaded file C:\Users\IAG\AppData\Local\Temp\tmp2a3rb6_wwandb\5gcciwu7-media/images/labels_1_1a3e86b872273dae2981.jpg
+2024-07-20 17:41:24,462 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:24,633 DEBUG   SenderThread:20548 [sender.py:send():379] send: stats
+2024-07-20 17:41:24,633 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:41:24,709 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:41:24,710 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:41:24,993 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:25,143 INFO    wandb-upload_25:20548 [upload_job.py:push():130] Uploaded file C:\Users\IAG\AppData\Local\Temp\tmp2a3rb6_wwandb\fl9if407-media/images/train_batch0_1_4fa6449ab9ff8a2c8551.jpg
+2024-07-20 17:41:25,983 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:26,481 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:26,992 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:27,999 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:28,496 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:29,008 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:29,848 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:41:30,018 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:30,517 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:31,033 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:32,040 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:32,538 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:33,051 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:34,059 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:34,557 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:34,851 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:41:35,069 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:36,078 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:36,576 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:37,088 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:38,096 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:38,595 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:39,106 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:39,709 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:41:39,709 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:41:39,964 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:41:40,113 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:40,612 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:41,124 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:42,133 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:42,633 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:43,132 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:44,136 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:44,649 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:45,143 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:41:45,149 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:46,156 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:46,667 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:47,164 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:47,759 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:41:47,760 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:41:47,761 DEBUG   SenderThread:20548 [sender.py:send():379] send: history
+2024-07-20 17:41:47,761 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: summary_record
+2024-07-20 17:41:47,761 INFO    SenderThread:20548 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-20 17:41:48,173 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:48,687 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:48,687 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_created():271] file/dir created: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\wandb-summary.json
+2024-07-20 17:41:49,425 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:50,709 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:50,807 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:50,878 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:41:51,828 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:52,731 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:52,824 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:53,743 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:53,855 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:54,645 DEBUG   SenderThread:20548 [sender.py:send():379] send: stats
+2024-07-20 17:41:54,706 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:41:54,707 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:41:54,831 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:56,013 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:41:57,486 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:58,501 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:41:58,798 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:41:59,512 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:00,524 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:00,820 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:01,534 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:01,798 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:42:02,545 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:02,841 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:03,557 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:04,568 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:04,864 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:05,585 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:06,591 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:06,887 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:07,015 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:42:07,602 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:08,613 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:08,909 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:09,624 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:09,717 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:42:09,718 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:42:10,635 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:10,931 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:11,646 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:12,243 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:42:12,657 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:12,954 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:13,668 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:14,678 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:14,975 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:15,690 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:16,700 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:16,996 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:17,405 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:42:17,710 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:18,270 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:42:18,732 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:19,016 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:19,748 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:20,758 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:21,039 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:22,587 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:22,656 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:42:23,591 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:24,602 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:24,649 DEBUG   SenderThread:20548 [sender.py:send():379] send: stats
+2024-07-20 17:42:24,742 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:42:24,742 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:42:25,085 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:25,613 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:26,625 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:27,107 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:27,635 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:27,776 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:42:28,646 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:29,129 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:29,657 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:30,669 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:31,151 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:31,679 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:32,286 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:42:32,691 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:33,173 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:33,451 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:42:33,700 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:34,181 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:34,709 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:35,191 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:35,719 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:36,729 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:37,210 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:37,737 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:38,748 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:38,947 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:42:39,227 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:39,756 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:42:39,756 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:39,756 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:42:40,764 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:41,246 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:41,774 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:42,785 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:43,268 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:43,802 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:44,635 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:42:44,805 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:45,286 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:45,822 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:46,808 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:47,307 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:47,818 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:48,829 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:49,326 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:49,839 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:49,978 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:42:50,846 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:51,344 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:51,856 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:52,864 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:53,360 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:53,872 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:54,664 DEBUG   SenderThread:20548 [sender.py:send():379] send: stats
+2024-07-20 17:42:54,773 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:42:54,773 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:42:54,881 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:55,081 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:42:55,377 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:55,888 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:56,898 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:57,396 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:57,906 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:58,918 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:42:59,285 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:42:59,285 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:42:59,286 DEBUG   SenderThread:20548 [sender.py:send():379] send: history
+2024-07-20 17:42:59,286 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: summary_record
+2024-07-20 17:42:59,287 INFO    SenderThread:20548 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-20 17:42:59,414 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\wandb-summary.json
+2024-07-20 17:42:59,414 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:42:59,925 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:00,936 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:00,974 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:43:01,435 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:02,023 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:03,036 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:03,456 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:04,046 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:04,467 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:05,057 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:06,029 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:43:06,068 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:07,080 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:07,504 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:08,091 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:09,102 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:09,522 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:09,771 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:43:09,771 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:43:10,113 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:11,124 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:11,545 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:11,644 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:43:12,135 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:13,146 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:13,566 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:14,157 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:14,579 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:15,169 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:16,180 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:16,600 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:17,029 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:43:17,191 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:18,202 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:18,623 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:19,213 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:20,224 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:20,645 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:21,236 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:22,247 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:22,667 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:22,806 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:43:23,258 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:24,268 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:24,673 DEBUG   SenderThread:20548 [sender.py:send():379] send: stats
+2024-07-20 17:43:24,688 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:24,781 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:43:24,781 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:43:25,278 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:26,290 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:26,710 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:27,285 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:27,959 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:43:28,296 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:28,733 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:29,307 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:30,318 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:30,755 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:31,329 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:32,341 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:32,777 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:33,079 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:43:33,352 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:33,506 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:43:34,710 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:34,799 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:35,717 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:36,767 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:37,769 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:38,111 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:43:38,779 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:39,791 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:39,791 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:43:39,791 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:43:40,802 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:40,864 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:41,813 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:42,825 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:42,887 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:43,198 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:43:43,835 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:44,847 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:44,909 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:45,857 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:46,868 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:46,931 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:47,864 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:48,224 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:43:48,875 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:48,954 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:49,886 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:50,897 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:50,975 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:51,907 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:52,918 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:52,997 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:53,433 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:43:53,929 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:54,676 DEBUG   SenderThread:20548 [sender.py:send():379] send: stats
+2024-07-20 17:43:54,815 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:43:54,816 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:43:54,939 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:55,018 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:55,468 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:43:55,951 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:56,960 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:57,039 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:57,970 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:58,049 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:43:58,669 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:43:58,981 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:43:59,992 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:01,003 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:02,014 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:03,024 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:04,020 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:04,175 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:44:05,031 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:06,041 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:07,048 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:07,143 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:08,058 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:09,065 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:09,159 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:09,532 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:44:09,828 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:44:09,828 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:44:10,076 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:11,084 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:11,177 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:12,093 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:13,102 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:13,196 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:14,094 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:15,009 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:44:15,103 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:15,211 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:16,113 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:17,121 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:17,230 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:18,128 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:19,136 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:19,245 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:20,145 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:20,176 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:44:21,154 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:21,264 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:22,164 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:23,174 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:23,284 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:24,184 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:24,680 DEBUG   SenderThread:20548 [sender.py:send():379] send: stats
+2024-07-20 17:44:24,835 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:44:24,835 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:44:25,191 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:25,191 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:44:25,300 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:26,202 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:27,211 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:27,320 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:28,220 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:29,229 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:29,338 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:30,207 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:44:30,238 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:30,746 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:44:30,746 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:44:30,747 DEBUG   SenderThread:20548 [sender.py:send():379] send: history
+2024-07-20 17:44:30,747 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: summary_record
+2024-07-20 17:44:30,747 INFO    SenderThread:20548 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-20 17:44:31,248 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:31,357 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\wandb-summary.json
+2024-07-20 17:44:31,357 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:32,258 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:33,379 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:33,423 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:34,434 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:35,211 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:44:35,398 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:35,444 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:36,409 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:36,998 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:38,010 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:39,021 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:39,441 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:39,830 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:44:39,830 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:44:40,032 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:40,219 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:44:41,043 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:41,464 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:42,054 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:43,066 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:43,486 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:44,077 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:45,088 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:45,228 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:44:45,508 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:46,099 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:47,111 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:47,530 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:48,121 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:49,132 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:49,553 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:50,143 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:50,236 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:44:51,154 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:51,575 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:52,165 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:53,160 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:53,595 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:54,171 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:54,685 DEBUG   SenderThread:20548 [sender.py:send():379] send: stats
+2024-07-20 17:44:54,840 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:44:54,840 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:44:55,182 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:55,245 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:44:55,618 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:56,193 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:56,397 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:44:57,251 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:57,639 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:44:58,259 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:44:59,270 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:00,435 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:45:00,485 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:01,493 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:02,488 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:03,499 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:03,703 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:04,510 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:05,491 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:45:05,522 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:05,724 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:06,532 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:07,543 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:07,746 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:08,554 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:09,565 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:09,768 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:09,861 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:45:09,861 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:45:10,138 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:45:10,575 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:11,584 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:11,788 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:12,594 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:13,603 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:14,040 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:45:14,613 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:15,621 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:15,823 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:16,629 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:16,831 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:17,640 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:17,842 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:18,650 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:19,301 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:45:19,644 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:19,861 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:20,651 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:21,659 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:21,876 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:22,667 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:23,674 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:23,893 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:24,685 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:24,685 DEBUG   SenderThread:20548 [sender.py:send():379] send: stats
+2024-07-20 17:45:24,685 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:45:24,871 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:45:24,871 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:45:25,694 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:25,913 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:26,703 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:27,711 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:27,928 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:28,721 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:28,939 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:29,695 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:45:29,727 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:30,738 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:30,956 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:31,749 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:32,756 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:32,974 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:33,764 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:34,774 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:34,990 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:35,005 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:45:35,783 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:36,244 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:45:36,244 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:45:36,244 DEBUG   SenderThread:20548 [sender.py:send():379] send: history
+2024-07-20 17:45:36,245 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: summary_record
+2024-07-20 17:45:36,245 INFO    SenderThread:20548 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-20 17:45:36,793 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:37,011 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\wandb-summary.json
+2024-07-20 17:45:37,011 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:37,804 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:38,987 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:39,034 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:39,889 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:45:39,889 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:45:39,998 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:40,045 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:40,166 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:45:41,009 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:41,056 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:43,105 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:44,118 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:45,098 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:45,129 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:45,322 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:45:46,140 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:47,120 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:47,152 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:48,162 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:49,142 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:49,173 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:50,184 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:50,574 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:45:51,164 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:51,195 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:52,209 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:53,187 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:53,217 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:54,228 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:54,696 DEBUG   SenderThread:20548 [sender.py:send():379] send: stats
+2024-07-20 17:45:54,898 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:45:54,898 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:45:55,209 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:55,240 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:55,583 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:45:56,251 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:57,231 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:57,262 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:58,273 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:45:59,253 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:45:59,283 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:00,294 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:00,590 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:46:01,275 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:01,305 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:02,316 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:02,819 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:46:03,296 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:03,328 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:04,449 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:05,319 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:05,626 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:05,626 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:46:06,640 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:08,428 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:09,363 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:09,439 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:09,891 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:46:09,891 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:46:10,451 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:10,638 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:46:11,384 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:11,461 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:12,472 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:13,406 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:13,483 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:14,494 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:15,428 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:15,505 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:15,646 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:46:16,516 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:17,450 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:17,526 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:18,110 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:46:18,539 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:19,468 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:19,545 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:20,477 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:20,561 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:20,647 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:46:21,487 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:21,549 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:22,559 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:23,504 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:23,566 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:24,574 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:24,698 DEBUG   SenderThread:20548 [sender.py:send():379] send: stats
+2024-07-20 17:46:24,900 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:46:24,900 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:46:25,521 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:25,583 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:25,660 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:46:26,591 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:27,539 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:27,601 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:28,612 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:29,559 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:29,621 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:30,631 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:30,671 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:46:31,580 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:31,641 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:32,653 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:33,599 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:33,660 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:34,671 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:35,620 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:35,682 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:36,476 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:46:36,689 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:37,636 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:37,698 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:38,708 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:39,655 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:39,716 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:39,903 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:46:39,904 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:46:40,726 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:41,675 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:41,736 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:41,843 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:46:42,744 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:43,693 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:43,754 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:44,676 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:46:44,676 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-20 17:46:44,677 DEBUG   SenderThread:20548 [sender.py:send():379] send: history
+2024-07-20 17:46:44,677 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: summary_record
+2024-07-20 17:46:44,677 INFO    SenderThread:20548 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-20 17:46:44,701 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\wandb-summary.json
+2024-07-20 17:46:44,764 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:45,713 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:45,968 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:47,345 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:46:47,385 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:47,735 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:48,387 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:48,745 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:49,399 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:49,758 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:46:50,411 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:46:52,821 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:46:54,704 DEBUG   SenderThread:20548 [sender.py:send():379] send: stats
+2024-07-20 17:46:58,747 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:47:03,803 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:47:08,858 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:47:13,912 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:47:18,968 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:47:24,023 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:47:24,709 DEBUG   SenderThread:20548 [sender.py:send():379] send: stats
+2024-07-20 17:47:29,761 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:47:34,816 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:47:39,871 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:47:44,925 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:47:49,979 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:47:54,709 DEBUG   SenderThread:20548 [sender.py:send():379] send: stats
+2024-07-20 17:47:55,718 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:48:00,773 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:48:05,829 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:48:10,885 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:48:15,941 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:48:20,995 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:48:24,714 DEBUG   SenderThread:20548 [sender.py:send():379] send: stats
+2024-07-20 17:48:26,735 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:48:31,790 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:48:36,844 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:48:41,890 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:48:46,944 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:48:52,001 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:48:54,723 DEBUG   SenderThread:20548 [sender.py:send():379] send: stats
+2024-07-20 17:48:57,754 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:49:02,808 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:49:07,863 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:49:12,919 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:49:15,517 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-20 17:49:15,517 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:49:15,517 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: stop_status
+2024-07-20 17:49:15,847 DEBUG   SenderThread:20548 [sender.py:send():379] send: exit
+2024-07-20 17:49:15,847 INFO    SenderThread:20548 [sender.py:send_exit():586] handling exit code: 255
+2024-07-20 17:49:15,847 INFO    SenderThread:20548 [sender.py:send_exit():588] handling runtime: 560
+2024-07-20 17:49:15,848 INFO    SenderThread:20548 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-20 17:49:15,848 INFO    SenderThread:20548 [sender.py:send_exit():594] send defer
+2024-07-20 17:49:15,848 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: defer
+2024-07-20 17:49:15,848 INFO    HandlerThread:20548 [handler.py:handle_request_defer():184] handle defer: 0
+2024-07-20 17:49:15,848 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: defer
+2024-07-20 17:49:15,848 INFO    SenderThread:20548 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-07-20 17:49:15,848 INFO    SenderThread:20548 [sender.py:transition_state():614] send defer: 1
+2024-07-20 17:49:15,848 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: defer
+2024-07-20 17:49:15,848 INFO    HandlerThread:20548 [handler.py:handle_request_defer():184] handle defer: 1
+2024-07-20 17:49:15,849 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: defer
+2024-07-20 17:49:15,849 INFO    SenderThread:20548 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-07-20 17:49:15,849 INFO    SenderThread:20548 [sender.py:transition_state():614] send defer: 2
+2024-07-20 17:49:15,849 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: defer
+2024-07-20 17:49:15,849 INFO    HandlerThread:20548 [handler.py:handle_request_defer():184] handle defer: 2
+2024-07-20 17:49:15,849 INFO    HandlerThread:20548 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-20 17:49:15,849 DEBUG   SystemMonitor:20548 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-20 17:49:15,853 DEBUG   SystemMonitor:20548 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-20 17:49:15,853 INFO    HandlerThread:20548 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-20 17:49:15,854 INFO    HandlerThread:20548 [interfaces.py:finish():200] Joined disk monitor
+2024-07-20 17:49:15,883 INFO    HandlerThread:20548 [interfaces.py:finish():200] Joined gpu monitor
+2024-07-20 17:49:15,883 INFO    HandlerThread:20548 [interfaces.py:finish():200] Joined memory monitor
+2024-07-20 17:49:15,884 INFO    HandlerThread:20548 [interfaces.py:finish():200] Joined network monitor
+2024-07-20 17:49:15,884 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: defer
+2024-07-20 17:49:15,884 INFO    SenderThread:20548 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-07-20 17:49:15,884 INFO    SenderThread:20548 [sender.py:transition_state():614] send defer: 3
+2024-07-20 17:49:15,884 DEBUG   SenderThread:20548 [sender.py:send():379] send: stats
+2024-07-20 17:49:15,884 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: defer
+2024-07-20 17:49:15,884 INFO    HandlerThread:20548 [handler.py:handle_request_defer():184] handle defer: 3
+2024-07-20 17:49:15,885 DEBUG   SenderThread:20548 [sender.py:send():379] send: history
+2024-07-20 17:49:15,885 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: summary_record
+2024-07-20 17:49:15,885 INFO    SenderThread:20548 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-20 17:49:15,885 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: defer
+2024-07-20 17:49:15,885 INFO    SenderThread:20548 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-07-20 17:49:15,885 INFO    SenderThread:20548 [sender.py:transition_state():614] send defer: 4
+2024-07-20 17:49:15,885 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: defer
+2024-07-20 17:49:15,885 INFO    HandlerThread:20548 [handler.py:handle_request_defer():184] handle defer: 4
+2024-07-20 17:49:15,886 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: defer
+2024-07-20 17:49:15,886 INFO    SenderThread:20548 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-07-20 17:49:15,886 INFO    SenderThread:20548 [sender.py:transition_state():614] send defer: 5
+2024-07-20 17:49:15,886 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: defer
+2024-07-20 17:49:15,886 INFO    HandlerThread:20548 [handler.py:handle_request_defer():184] handle defer: 5
+2024-07-20 17:49:15,886 DEBUG   SenderThread:20548 [sender.py:send():379] send: summary
+2024-07-20 17:49:15,886 INFO    SenderThread:20548 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-20 17:49:15,887 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: defer
+2024-07-20 17:49:15,887 INFO    SenderThread:20548 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-07-20 17:49:15,887 INFO    SenderThread:20548 [sender.py:transition_state():614] send defer: 6
+2024-07-20 17:49:15,887 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: defer
+2024-07-20 17:49:15,887 INFO    HandlerThread:20548 [handler.py:handle_request_defer():184] handle defer: 6
+2024-07-20 17:49:15,887 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: defer
+2024-07-20 17:49:15,887 INFO    SenderThread:20548 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-07-20 17:49:15,887 INFO    SenderThread:20548 [sender.py:transition_state():614] send defer: 7
+2024-07-20 17:49:15,887 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: status_report
+2024-07-20 17:49:15,887 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: defer
+2024-07-20 17:49:15,887 INFO    HandlerThread:20548 [handler.py:handle_request_defer():184] handle defer: 7
+2024-07-20 17:49:15,887 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: defer
+2024-07-20 17:49:15,887 INFO    SenderThread:20548 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-07-20 17:49:16,338 INFO    Thread-16 :20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\wandb-summary.json
+2024-07-20 17:49:16,540 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-20 17:49:17,741 INFO    SenderThread:20548 [sender.py:transition_state():614] send defer: 8
+2024-07-20 17:49:17,742 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: poll_exit
+2024-07-20 17:49:17,742 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: defer
+2024-07-20 17:49:17,742 INFO    HandlerThread:20548 [handler.py:handle_request_defer():184] handle defer: 8
+2024-07-20 17:49:17,742 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: defer
+2024-07-20 17:49:17,743 INFO    SenderThread:20548 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-07-20 17:49:17,743 INFO    SenderThread:20548 [job_builder.py:build():440] Attempting to build job artifact
+2024-07-20 17:49:17,743 INFO    SenderThread:20548 [job_builder.py:_get_source_type():580] no source found
+2024-07-20 17:49:17,743 INFO    SenderThread:20548 [sender.py:transition_state():614] send defer: 9
+2024-07-20 17:49:17,743 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: defer
+2024-07-20 17:49:17,743 INFO    HandlerThread:20548 [handler.py:handle_request_defer():184] handle defer: 9
+2024-07-20 17:49:17,743 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: defer
+2024-07-20 17:49:17,744 INFO    SenderThread:20548 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-07-20 17:49:17,744 INFO    SenderThread:20548 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-07-20 17:49:18,360 INFO    SenderThread:20548 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:49:18,361 INFO    SenderThread:20548 [dir_watcher.py:finish():388] scan: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files
+2024-07-20 17:49:18,361 INFO    SenderThread:20548 [dir_watcher.py:finish():402] scan save: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\config.yaml config.yaml
+2024-07-20 17:49:18,361 INFO    SenderThread:20548 [dir_watcher.py:finish():402] scan save: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log output.log
+2024-07-20 17:49:18,363 INFO    SenderThread:20548 [dir_watcher.py:finish():402] scan save: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\requirements.txt requirements.txt
+2024-07-20 17:49:18,363 INFO    SenderThread:20548 [dir_watcher.py:finish():402] scan save: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\wandb-metadata.json wandb-metadata.json
+2024-07-20 17:49:18,363 INFO    SenderThread:20548 [dir_watcher.py:finish():402] scan save: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\wandb-summary.json wandb-summary.json
+2024-07-20 17:49:18,366 INFO    SenderThread:20548 [dir_watcher.py:finish():402] scan save: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\media\images\labels_1_1a3e86b872273dae2981.jpg media/images/labels_1_1a3e86b872273dae2981.jpg
+2024-07-20 17:49:18,366 INFO    SenderThread:20548 [dir_watcher.py:finish():402] scan save: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\media\images\train_batch0_1_4fa6449ab9ff8a2c8551.jpg media/images/train_batch0_1_4fa6449ab9ff8a2c8551.jpg
+2024-07-20 17:49:18,366 INFO    SenderThread:20548 [dir_watcher.py:finish():402] scan save: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\media\images\train_batch1_1_38f5183283a61764de87.jpg media/images/train_batch1_1_38f5183283a61764de87.jpg
+2024-07-20 17:49:18,366 INFO    SenderThread:20548 [dir_watcher.py:finish():402] scan save: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\media\images\train_batch2_1_3ee11d24f765046bdc10.jpg media/images/train_batch2_1_3ee11d24f765046bdc10.jpg
+2024-07-20 17:49:18,367 INFO    SenderThread:20548 [dir_watcher.py:finish():402] scan save: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\media\table\Validation-Table_1_cadc10681407fa28745c.table.json media/table/Validation-Table_1_cadc10681407fa28745c.table.json
+2024-07-20 17:49:18,367 INFO    SenderThread:20548 [sender.py:transition_state():614] send defer: 10
+2024-07-20 17:49:18,367 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: defer
+2024-07-20 17:49:18,367 INFO    HandlerThread:20548 [handler.py:handle_request_defer():184] handle defer: 10
+2024-07-20 17:49:18,367 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: defer
+2024-07-20 17:49:18,367 INFO    SenderThread:20548 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-07-20 17:49:18,367 INFO    SenderThread:20548 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-20 17:49:18,562 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-20 17:49:18,563 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: poll_exit
+2024-07-20 17:49:18,919 INFO    wandb-upload_3:20548 [upload_job.py:push():130] Uploaded file C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\requirements.txt
+2024-07-20 17:49:18,921 INFO    wandb-upload_26:20548 [upload_job.py:push():130] Uploaded file C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\output.log
+2024-07-20 17:49:18,921 INFO    wandb-upload_7:20548 [upload_job.py:push():130] Uploaded file C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\config.yaml
+2024-07-20 17:49:18,982 INFO    wandb-upload_15:20548 [upload_job.py:push():130] Uploaded file C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\files\wandb-summary.json
+2024-07-20 17:49:19,184 INFO    Thread-15 :20548 [sender.py:transition_state():614] send defer: 11
+2024-07-20 17:49:19,184 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: defer
+2024-07-20 17:49:19,185 INFO    HandlerThread:20548 [handler.py:handle_request_defer():184] handle defer: 11
+2024-07-20 17:49:19,185 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: defer
+2024-07-20 17:49:19,185 INFO    SenderThread:20548 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-07-20 17:49:19,185 INFO    SenderThread:20548 [file_pusher.py:join():175] waiting for file pusher
+2024-07-20 17:49:19,188 INFO    SenderThread:20548 [sender.py:transition_state():614] send defer: 12
+2024-07-20 17:49:19,189 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: defer
+2024-07-20 17:49:19,189 INFO    HandlerThread:20548 [handler.py:handle_request_defer():184] handle defer: 12
+2024-07-20 17:49:19,189 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: defer
+2024-07-20 17:49:19,189 INFO    SenderThread:20548 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-07-20 17:49:19,189 INFO    SenderThread:20548 [file_stream.py:finish():601] file stream finish called
+2024-07-20 17:49:19,573 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-20 17:49:20,027 INFO    SenderThread:20548 [file_stream.py:finish():605] file stream finish is done
+2024-07-20 17:49:20,028 INFO    SenderThread:20548 [sender.py:transition_state():614] send defer: 13
+2024-07-20 17:49:20,028 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: poll_exit
+2024-07-20 17:49:20,028 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: defer
+2024-07-20 17:49:20,028 INFO    HandlerThread:20548 [handler.py:handle_request_defer():184] handle defer: 13
+2024-07-20 17:49:20,028 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: defer
+2024-07-20 17:49:20,028 INFO    SenderThread:20548 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-07-20 17:49:20,028 INFO    SenderThread:20548 [sender.py:transition_state():614] send defer: 14
+2024-07-20 17:49:20,028 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: defer
+2024-07-20 17:49:20,028 DEBUG   SenderThread:20548 [sender.py:send():379] send: final
+2024-07-20 17:49:20,028 INFO    HandlerThread:20548 [handler.py:handle_request_defer():184] handle defer: 14
+2024-07-20 17:49:20,028 DEBUG   SenderThread:20548 [sender.py:send():379] send: footer
+2024-07-20 17:49:20,029 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: defer
+2024-07-20 17:49:20,029 INFO    SenderThread:20548 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-07-20 17:49:20,029 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-20 17:49:20,029 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: server_info
+2024-07-20 17:49:20,029 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-20 17:49:20,029 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: get_summary
+2024-07-20 17:49:20,029 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: poll_exit
+2024-07-20 17:49:20,029 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: sampled_history
+2024-07-20 17:49:20,029 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: server_info
+2024-07-20 17:49:20,030 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-20 17:49:20,271 DEBUG   SenderThread:20548 [sender.py:send_request():406] send_request: poll_exit
+2024-07-20 17:49:20,271 INFO    MainThread:20548 [wandb_run.py:_footer_history_summary_info():3991] rendering history
+2024-07-20 17:49:20,272 INFO    MainThread:20548 [wandb_run.py:_footer_history_summary_info():4023] rendering summary
+2024-07-20 17:49:20,273 INFO    MainThread:20548 [wandb_run.py:_footer_sync_info():3950] logging synced files
+2024-07-20 17:49:20,273 DEBUG   HandlerThread:20548 [handler.py:handle_request():158] handle_request: shutdown
+2024-07-20 17:49:20,273 INFO    HandlerThread:20548 [handler.py:finish():882] shutting down handler
+2024-07-20 17:49:21,035 INFO    WriterThread:20548 [datastore.py:close():296] close: C:\users\iag\pycharmprojects\mbs\wandb\run-20240720_173953-u9xjpath\run-u9xjpath.wandb
+2024-07-20 17:49:21,283 INFO    SenderThread:20548 [sender.py:finish():1608] shutting down sender
+2024-07-20 17:49:21,283 INFO    SenderThread:20548 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-20 17:49:21,283 INFO    SenderThread:20548 [file_pusher.py:join():175] waiting for file pusher

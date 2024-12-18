@@ -1,0 +1,297 @@
+Ultralytics YOLOv8.2.60 🚀 Python-3.9.13 torch-2.3.1+cu118 CUDA:0 (NVIDIA GeForce RTX 3090 Ti, 24564MiB)
+[34m[1mengine\trainer: [39m[22mtask=detect, mode=train, model=best.pt, data=datasets/dataset.yaml, epochs=300, time=None, patience=100, batch=16, imgsz=640, save=True, save_period=30, cache=False, device=0, workers=0, project=yolov8_mbs, name=train, exist_ok=False, pretrained=True, optimizer=auto, verbose=True, seed=0, deterministic=True, single_cls=False, rect=False, cos_lr=False, close_mosaic=10, resume=False, amp=True, fraction=1.0, profile=False, freeze=None, multi_scale=False, overlap_mask=True, mask_ratio=4, dropout=0.0, val=True, split=val, save_json=False, save_hybrid=False, conf=None, iou=0.7, max_det=300, half=False, dnn=False, plots=True, source=None, vid_stride=1, stream_buffer=False, visualize=False, augment=False, agnostic_nms=False, classes=None, retina_masks=False, embed=None, show=False, save_frames=False, save_txt=False, save_conf=False, save_crop=False, show_labels=True, show_conf=True, show_boxes=True, line_width=None, format=torchscript, keras=False, optimize=False, int8=False, dynamic=False, simplify=False, opset=None, workspace=4, nms=False, lr0=0.01, lrf=0.01, momentum=0.937, weight_decay=0.0005, warmup_epochs=3.0, warmup_momentum=0.8, warmup_bias_lr=0.1, box=7.5, cls=0.5, dfl=1.5, pose=12.0, kobj=1.0, label_smoothing=0.0, nbs=64, hsv_h=0.015, hsv_s=0.7, hsv_v=0.4, degrees=0.0, translate=0.1, scale=0.5, shear=0.0, perspective=0.0, flipud=0.0, fliplr=0.5, bgr=0.0, mosaic=1.0, mixup=0.0, copy_paste=0.0, auto_augment=randaugment, erasing=0.4, crop_fraction=1.0, cfg=None, tracker=botsort.yaml, save_dir=yolov8_mbs\train
+                   from  n    params  module                                       arguments
+  0                  -1  1      2320  ultralytics.nn.modules.conv.Conv             [3, 80, 3, 2]
+  1                  -1  1    115520  ultralytics.nn.modules.conv.Conv             [80, 160, 3, 2]
+  2                  -1  3    436800  ultralytics.nn.modules.block.C2f             [160, 160, 3, True]
+  3                  -1  1    461440  ultralytics.nn.modules.conv.Conv             [160, 320, 3, 2]
+  4                  -1  6   3281920  ultralytics.nn.modules.block.C2f             [320, 320, 6, True]
+  5                  -1  1   1844480  ultralytics.nn.modules.conv.Conv             [320, 640, 3, 2]
+  6                  -1  6  13117440  ultralytics.nn.modules.block.C2f             [640, 640, 6, True]
+  7                  -1  1   3687680  ultralytics.nn.modules.conv.Conv             [640, 640, 3, 2]
+  8                  -1  3   6969600  ultralytics.nn.modules.block.C2f             [640, 640, 3, True]
+  9                  -1  1   1025920  ultralytics.nn.modules.block.SPPF            [640, 640, 5]
+ 10                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']
+ 11             [-1, 6]  1         0  ultralytics.nn.modules.conv.Concat           [1]
+ 12                  -1  3   7379200  ultralytics.nn.modules.block.C2f             [1280, 640, 3]
+ 13                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']
+ 14             [-1, 4]  1         0  ultralytics.nn.modules.conv.Concat           [1]
+ 15                  -1  3   1948800  ultralytics.nn.modules.block.C2f             [960, 320, 3]
+ 16                  -1  1    922240  ultralytics.nn.modules.conv.Conv             [320, 320, 3, 2]
+ 17            [-1, 12]  1         0  ultralytics.nn.modules.conv.Concat           [1]
+ 18                  -1  3   7174400  ultralytics.nn.modules.block.C2f             [960, 640, 3]
+ 19                  -1  1   3687680  ultralytics.nn.modules.conv.Conv             [640, 640, 3, 2]
+ 20             [-1, 9]  1         0  ultralytics.nn.modules.conv.Concat           [1]
+ 21                  -1  3   7379200  ultralytics.nn.modules.block.C2f             [1280, 640, 3]
+ 22        [15, 18, 21]  1   8719894  ultralytics.nn.modules.head.Detect           [2, [320, 640, 640]]
+Model summary: 365 layers, 68,154,534 parameters, 68,154,518 gradients, 258.1 GFLOPs
+Transferred 595/595 items from pretrained weights
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+[34m[1mAMP: [39m[22mchecks passed ✅
+Plotting labels to yolov8_mbs\train\labels.jpg...
+[34m[1mtrain: [39m[22mScanning C:\Users\IAG\PycharmProjects\MBS\datasets\labels\train.cache... 297 images, 0 backgrounds, 0 corrupt: 100%|██████████| 297/297 [00:00<?, ?it/s]
+[34m[1mval: [39m[22mScanning C:\Users\IAG\PycharmProjects\MBS\datasets\labels\val.cache... 61 images, 0 backgrounds, 0 corrupt: 100%|██████████| 61/61 [00:00<?, ?it/s]
+  0%|          | 0/19 [00:00<?, ?it/s]
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.001667, momentum=0.9) with parameter groups 97 weight(decay=0.0), 104 weight(decay=0.0005), 103 bias(decay=0.0)
+Image sizes 640 train, 640 val
+Using 0 dataloader workers
+Logging results to [1myolov8_mbs\train
+Starting training for 300 epochs...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      1/300        13G      1.011     0.7249      1.271        163        640: 100%|██████████| 19/19 [00:28<00:00,  1.51s/it]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:03<00:00,  1.54s/it]
+                   all         61        469      0.609      0.675      0.642      0.375
+Ultralytics YOLOv8.2.60 🚀 Python-3.9.13 torch-2.3.1+cu118 CUDA:0 (NVIDIA GeForce RTX 3090 Ti, 24564MiB)
+Model summary (fused): 268 layers, 68,125,494 parameters, 0 gradients, 257.4 GFLOPs
+
+
+
+
+
+
+
+
+
+
+Generating Visualizations for batch-1/1: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32/32 [00:19<00:00,  1.64it/s]
+
+
+
+
+
+Generating Visualizations for batch-1/1: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 29/29 [00:13<00:00,  2.16it/s]
+  0%|          | 0/19 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+      2/300      13.7G      1.096     0.7592      1.311        158        640: 100%|██████████| 19/19 [00:28<00:00,  1.48s/it]
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:03<00:00,  1.62s/it]
+                   all         61        469      0.717      0.622      0.668      0.377
+
+
+
+
+
+
+
+
+
+
+
+Generating Visualizations for batch-1/1: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32/32 [00:20<00:00,  1.55it/s]
+
+
+
+
+Generating Visualizations for batch-1/1:  97%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████        | 28/29 [00:09<00:00,  2.52it/s]
+Generating Visualizations for batch-1/1: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 29/29 [00:09<00:00,  3.01it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+      3/300      14.2G      1.174     0.8482      1.333         90        640: 100%|██████████| 19/19 [00:26<00:00,  1.41s/it]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:03<00:00,  1.54s/it]
+                   all         61        469       0.62      0.618      0.632      0.349
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating Visualizations for batch-1/1: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32/32 [00:28<00:00,  1.12it/s]
+
+
+
+
+
+
+
+Generating Visualizations for batch-1/1: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 29/29 [00:16<00:00,  1.78it/s]
+  0%|          | 0/19 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+      4/300      13.8G       1.22     0.8697      1.337         82        640: 100%|██████████| 19/19 [00:35<00:00,  1.85s/it]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:03<00:00,  1.54s/it]
+                   all         61        469      0.695       0.61      0.667       0.37
+
+
+
+
+
+
+
+
+
+Generating Visualizations for batch-1/1: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32/32 [00:19<00:00,  1.66it/s]
+
+
+
+
+Generating Visualizations for batch-1/1: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 29/29 [00:09<00:00,  3.02it/s]
+      5/300      14.1G      1.369     0.9773      1.449        254        640:  16%|█▌        | 3/19 [00:03<00:20,  1.31s/it]
+
+
+
+
+
+
+
+
+
+
+      5/300      14.1G      1.317     0.9431      1.411        140        640: 100%|██████████| 19/19 [00:25<00:00,  1.37s/it]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:01<00:01,  1.69s/it]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:03<00:00,  1.53s/it]
+
+
+
+
+
+
+
+
+
+
+Generating Visualizations for batch-1/1: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32/32 [00:19<00:00,  1.63it/s]
+
+
+
+
+Generating Visualizations for batch-1/1: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 29/29 [00:09<00:00,  3.03it/s]
+  0%|          | 0/19 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+      6/300        14G      1.315     0.9436      1.422         94        640: 100%|██████████| 19/19 [00:26<00:00,  1.39s/it]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 1/2 [00:01<00:01,  1.65s/it]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:03<00:00,  1.54s/it]
+Traceback (most recent call last):
+  File "C:\users\iag\pycharmprojects\mbs\main.py", line 18, in <module>
+    train_model(model, epochs=300)
+  File "C:\users\iag\pycharmprojects\mbs\modelling.py", line 20, in train_model
+    model.train(data=data, epochs=epochs, imgsz=640, batch=16, workers=0, project="yolov8_mbs", device=0, save_period = 30)
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\ultralytics\engine\model.py", line 652, in train
+    self.trainer.train()
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\ultralytics\engine\trainer.py", line 204, in train
+    self._do_train(world_size)
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\ultralytics\engine\trainer.py", line 429, in _do_train
+    self.metrics, self.fitness = self.validate()
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\ultralytics\engine\trainer.py", line 570, in validate
+    metrics = self.validator(self)
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\torch\utils\_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\ultralytics\engine\validator.py", line 200, in __call__
+    self.run_callbacks("on_val_end")
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\ultralytics\engine\validator.py", line 268, in run_callbacks
+    callback(self)
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\torch\utils\_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\wandb\integration\ultralytics\callback.py", line 362, in on_val_end
+    self.validation_table = plot_detection_validation_results(
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\wandb\integration\ultralytics\bbox_utils.py", line 165, in plot_detection_validation_results
+    prediction_results = predictor(batch["im_file"])
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\ultralytics\engine\predictor.py", line 168, in __call__
+    return list(self.stream_inference(source, model, *args, **kwargs))  # merge list of Result into one
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\torch\utils\_contextlib.py", line 35, in generator_context
+    response = gen.send(None)
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\ultralytics\engine\predictor.py", line 254, in stream_inference
+    preds = self.inference(im, *args, **kwargs)
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\ultralytics\engine\predictor.py", line 142, in inference
+    return self.model(im, augment=self.args.augment, visualize=visualize, embed=self.args.embed, *args, **kwargs)
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\torch\nn\modules\module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\torch\nn\modules\module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\ultralytics\nn\autobackend.py", line 456, in forward
+    y = self.model(im, augment=augment, visualize=visualize, embed=embed)
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\torch\nn\modules\module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\torch\nn\modules\module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\ultralytics\nn\tasks.py", line 102, in forward
+    return self.predict(x, *args, **kwargs)
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\ultralytics\nn\tasks.py", line 120, in predict
+    return self._predict_once(x, profile, visualize, embed)
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\ultralytics\nn\tasks.py", line 141, in _predict_once
+    x = m(x)  # run
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\torch\nn\modules\module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\torch\nn\modules\module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\ultralytics\nn\modules\head.py", line 60, in forward
+    y = self._inference(x)
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\ultralytics\nn\modules\head.py", line 93, in _inference
+    self.anchors, self.strides = (x.transpose(0, 1) for x in make_anchors(x, self.stride, 0.5))
+  File "C:\Users\IAG\PycharmProjects\MBS\.venv\lib\site-packages\ultralytics\utils\tal.py", line 305, in make_anchors
+    stride_tensor.append(torch.full((h * w, 1), stride, dtype=dtype, device=device))
+KeyboardInterrupt
