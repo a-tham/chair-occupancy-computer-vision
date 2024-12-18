@@ -128,7 +128,7 @@ Test Results Arguments:
 #### helper.py
 Contains helper functions for dataset splitting and file renaming
 
-#### rename_files.py (https://drive.google.com/file/d/1aWWEE7FFxtnQjlAsw12eOC6ECp1iryKS/view?usp=drive_link)
+#### rename_files.py 
 Renames all images in a folder for filename uniformity
 
 #### split_dataset.py
@@ -139,7 +139,7 @@ Renames all images in a folder for filename uniformity
 Contains functions for running model training
 
 ### Other Files
-- **best.pt**: Best model checkpoint after training (please run the training to get best model checkpoint)
+- **best.pt**: Best model checkpoint after training ((https://drive.google.com/file/d/1aWWEE7FFxtnQjlAsw12eOC6ECp1iryKS/view?usp=drive_link))
 - **startup.sh**: Command file for starting up Azure instance
 
 ## Model Training and Performance Details
